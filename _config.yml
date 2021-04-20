@@ -15,17 +15,18 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "pt-BR"
-title                    : "@marciolsa"
-title_separator          : "-"
+title                    : "Márcio Soster"
+title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Márcio Luís Soster Arrosi"
-description              : "An amazing website."
+description              : "Blog pessoal de Márcio Soster criado para divulgar tutoriais e o conhecimento adquirido durantes meus anos de profissão em: 
+React, Angular, Java, DevOps e bancos de dados SQL e NoSQL."
 url                      : "https://marcioluis.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "marcioluis/marcioluis.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "@marciolsa's mind" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -63,14 +64,14 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : 
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : marciolsa
 facebook:
   username               :
   app_id                 :
@@ -81,21 +82,24 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links                  : # An array of links to social media profiles
+   - "https://twitter.com/marciolsa"
+   - "https://linkedin.com/in/marciolsa"
+   - "https://github.com/marcioluis"
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "G-YV1XYNZ9NC"
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
 author:
   name             : "Márcio L. S. Arrosi"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Desenvolvedor Fullstack compartilhando um pouco das minhas experiências"
   location         : "Brazil"
   email            :
   links:
@@ -104,10 +108,10 @@ author:
       url: "mailto:marciososter+blog@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "/about"
+      # url: "/about"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/marciolsa"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/marciolsa"
@@ -116,7 +120,7 @@ author:
       url: "https://github.com/marcioluis"
     - label: "Stack Overflow"
       icon: "fab fa-fw fa-stack-overflow"
-      url: "https://stackoverflow.com/users/5373665/marcio-lsa"
+      # url: "https://stackoverflow.com/users/5373665/marcio-lsa"
 
 # Site Footer
 footer:
@@ -209,7 +213,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "America/Sao_Paulo" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)

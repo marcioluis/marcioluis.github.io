@@ -1,9 +1,9 @@
 ---
-title: "About"
+title: "Sobre"
 permalink: /about/
 author_profile: true
 ---
 
-Tempor velt sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
-
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Sou um desenvolvedor fullstack, trabalho com frontend (interface) e backend (a parte que ninguém vê), com mais de 8 anos de experiência na área. 
+Resolvi fazer esse blog para compartilhar um pouco das minhas descobertas e criações no mundo da T.I. e assim, talvez, ajudar alguém que também precise.
+Não é uma tarefa muito fácil transformar o dia a dia em posts mas é um desafio pessoal que eu me propus e acredito que será divertido.
