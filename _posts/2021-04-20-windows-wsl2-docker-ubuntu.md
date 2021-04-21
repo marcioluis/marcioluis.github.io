@@ -6,6 +6,9 @@ tags:
   - wsl2
   - windows
   - ubuntu
+header: 
+  teaser: "/assets/images/posts/wsl2-header.jpeg"
+  image: "/assets/images/posts/wsl2-header.jpeg"
 ---
 
 Esse post tem como objetivo construir um passo-a-passo para a instalação e ativação do WSL2 no Windows. 
@@ -84,12 +87,3 @@ Após a instalação e criação do usuário, acesse a distribuição pelo menu 
 Execute o seguinte comando para atualizar a distribuição:
 
 `sudo apt update && sudo apt upgrade`
-
-C:\Users\<<nome do meu usuario>>
-criar o arquivo .wslconfig
-
-adicionar o seguinte conteúdo:
-
-[wsl2]
-memory=3.5GB # Limits VM memory in WSL 2
-processors=2 # Makes the WSL 2 VM use two virtual processors

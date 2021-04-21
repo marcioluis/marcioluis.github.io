@@ -76,12 +76,12 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/og-default.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  name                   : "Márcio Luís Soster Arrosi" # If the user or organization name differs from the site's name
   links                  : # An array of links to social media profiles
    - "https://twitter.com/marciolsa"
    - "https://linkedin.com/in/marciolsa"
@@ -89,7 +89,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          : "G-YV1XYNZ9NC"
     anonymize_ip         : false # true, false (default)
@@ -98,7 +98,7 @@ analytics:
 # Site Author
 author:
   name             : "Márcio L. S. Arrosi"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio.jpg"
   bio              : "Desenvolvedor Fullstack compartilhando um pouco das minhas experiências"
   location         : "Brazil"
   email            :
